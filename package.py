@@ -30,6 +30,7 @@ def commands():
     env.pugixml_LIBRARY_DIR = "{root}/lib64"
 
     env.LD_LIBRARY_PATH.append("{root}/lib64")
+    env.PKG_CONFIG_PATH.append("{root}/lib64/cmake/pugixml")
 
 
 uuid = "repository.pugixml"
